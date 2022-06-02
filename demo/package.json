@@ -1,0 +1,20 @@
+{
+  "name": "demo-solid-stars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lutaok",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-solid": "^1.4.2",
+    "solid-js": "^1.4.3",
+    "solid-stars": "^1.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.9.9",
+    "vite-plugin-solid": "^2.2.6"
+  }
+}
