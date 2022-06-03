@@ -1,9 +1,10 @@
 {
   "name": "solid-stars",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Star rating component for SolidJS",
   "main": "./dist/solid-stars.umd.js",
   "module": "./dist/solid-stars.es.js",
+  "types": "./dist/index.d.ts",
   "files": [
     "dist"
   ],
@@ -20,7 +21,7 @@
     }
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build && tsc"
   },
   "author": "lutaok",
   "license": "MIT",
