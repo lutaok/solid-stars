@@ -1,6 +1,6 @@
 {
   "name": "solid-stars",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Star rating component for SolidJS",
   "main": "./dist/solid-stars.umd.js",
   "module": "./dist/solid-stars.es.js",
@@ -14,6 +14,10 @@
     "rating",
     "solid-stars"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lutaok/solid-stars.git"
+  },
   "exports": {
     ".": {
       "import": "./dist/solid-stars.es.js",
